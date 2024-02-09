@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    
+    font-family: 'open sans';
+}
+header{
+    width: 100%;
+    height: 600px;
+    background:  #076585;  /* fallback for old browsers */
+    background: linear-gradient(to right, hsla(0, 0%, 100%, 0.644), hsla(195, 90%, 27%, 0.616)), url(eee.jfif);
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  ;
+    background: linear-gradient(to right, hsla(0, 0%, 100%, 0.562), hsla(195, 90%, 27%, 0.685)), url(eee.jfif);
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+     background-size: cover;
+     background-attachment: fixed;
+     position: relative;
+ }
+ nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color:#fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 40px;
+    color:#fff;
+}
+.titulo{
+    color: #076585 ;  
+     font-size: 30px;
+     text-align:center;
+     margin-bottom: 60px;
+ }
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color:#fff;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+main{
+    min-height: 100vh;
+    position: relative;
+}
+.flex{
+    position: relative;
+    display: flex;
+    flex-flow: wrap;
+    padding: 5%;
+    width: 100%;
+    height: 400px;
+    margin: auto;
+   
+   
+   
+    }
+h1{
+  
+    text-align: center;
+
+}
+div.galeria{
+   
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0, 0,0, 0.19);
+    float: left;
+    width: 330px;
+
+    
+   
+}
+div.galeria img {
+    justify-content: center;
+    width: 100%;
+    height: 40%;
+}
+div.galeria:hover{
+
+    border: 6px solid lightcoral;
+    transform: rotateX('angle');
+}
+div.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px purple;
+    padding: 5px;
+
+}
+.flex a{
+    display: block;
+    width: 45px;
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: 100;
+    margin-top: 30px;
+    margin-bottom: 40%;
+    margin-left: 700px;
+    border-radius: 150px;
+    background-color: #076585; 
+    text-align: center;
+}
+
